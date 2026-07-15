@@ -31,7 +31,7 @@ if uploaded_file is not None:
             try:
                 # Step B: Make API call to our local server (Forced IPv4 for Windows 11)
                 response = requests.post(
-                    "http://127.0.0.1:8000/api/v1/extract-text",
+                    "https://ai-resume-backend-5p9v.onrender.com/api/v1/extract-text",
                     files=files
                 )
                 
